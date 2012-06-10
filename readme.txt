@@ -2,7 +2,7 @@ Translate Stats
 version: 0.3.5
 author: shirosagi
 date: 30.05.2012
-Распространяется под лицензией GPLv3
+Распространяется под лицензией LGPL
 ------------------------------------------------------------------------
 Требования:
  - php 5.3
@@ -10,19 +10,19 @@ date: 30.05.2012
  - 32Mb памяти php
 ------------------------------------------------------------------------
 Параметры ajax-запросов
- - send:			отправка ajax запроса									(bool)
- - returning: 		возврат результата запроса								(bool)
- - display_error: 	показ ошибок											(bool)
- - action: 			действие запроса										(null/string/int)
- - data: 			данные запроса											(object)
- - target: 			id или class, где отобразиться ответ					(null/string)
- - answer: 			ответ запроса											(undefined/mix/json/html)
- - data_col:		сбор даты с полей автоматически							(bool)
- - cursor: 			курсор на данный элемент(с которым связоно событие)		(null/string)
- - enc_data: 		дата перекодированая в json для отправки				(null/json)
- - debug: 			вывод сообщений в консоль браузера						(bool)
- - token: 			api токен												(string[32])
- - version: 		версия скрипта											(string)
+ - send:		отправка ajax запроса						(bool)
+ - returning: 		возврат результата запроса					(bool)
+ - display_error: 	показ ошибок							(bool)
+ - action: 		действие запроса						(null/string/int)
+ - data: 		данные запроса							(object)
+ - target: 		id или class, где отобразиться ответ				(null/string)
+ - answer: 		ответ запроса							(undefined/mix/json/html)
+ - data_col:		сбор даты с полей автоматически					(bool)
+ - cursor: 		курсор на данный элемент(с которым связоно событие)		(null/string)
+ - enc_data: 		дата перекодированая в json для отправки			(null/json)
+ - debug: 		вывод сообщений в консоль браузера				(bool)
+ - token: 		api токен							(string[32])
+ - version: 		версия скрипта							(string)
 Сбор данных через DOM:
  Параметр <data_col> должен быть истинным(true). Сбор происходит по установленному пользователем событию. 
  Команда на выполнение передаётся через id или атрибут action.
